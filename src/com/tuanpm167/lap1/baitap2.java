@@ -11,7 +11,7 @@ public class baitap2 {
        Double chuvi = (a+b)*2;
         System.out.println("chu vi : "+ chuvi);
         Double dientich = (a*b);
-        System.out.println("dientich : " +dientich);
+        System.out.println("dientich : " +dientich); 
         Double canhnhonhat = Math . min (a,b);
         System.out.println("cạnh nhỏ nhất: "+ canhnhonhat);
 
