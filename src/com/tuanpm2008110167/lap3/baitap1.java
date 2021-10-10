@@ -1,25 +1,29 @@
 package com.tuanpm2008110167.lap3;
 import java.util.Scanner;
 public class baitap1 {
-    boolean kiemtranguyento(int n){
-        for(int i =2; i<=Math.sqrt(n);i++){
-         if(n%i == 0){
-          return false;
-         }
+       public static void main(String args[])
+       {
+        var scanner = new Scanner(System.in);
+        System.out.printf("nhập số nguyên tố: ");
+        Float N = scanner.nextFloat ();
+        boolean ok = true; 
+        for(int i=2; i < N-1; i++)
+        { 
+        if(N % i == 0)
+        { 
+        ok = false; break;
+        }        
+
+            }
+            if (ok) 
+        {
+
+         System.out.printf(" la so nguyen to");
         }
-        return true;
-       }
-       public static void main(String args[]){
-        Scanner s = new Scanner(System.in);
-        System.out.printf("Kiem tra so nguyen to \n");
-        System.out.printf("Nhap vao so nguyen duong \n");
-        int n = s.nextInt();
-        SoNguyenTo snt = new SoNguyenTo();
-        if(snt.kiemtranguyento(n)){
-         System.out.printf("So : " +n +" la so nguyen to");
-        }else{
-         System.out.printf("So : " +n +" khong phai la so nguyen to");
+            else
+        {
+         System.out.printf(" khong phai la so nguyen to");
         }
-       }
+    }}
   
    
