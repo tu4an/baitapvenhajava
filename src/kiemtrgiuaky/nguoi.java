@@ -1,11 +1,11 @@
 package kiemtrgiuaky;
 import java.util.Scanner;
-public class Nguoi {
+public class nguoi {
     private String hoTen;
     private String diaChi;
     Scanner n = new Scanner(System.in);
 
-   public Nguoi (){
+   public nguoi (){
        setHoTen();
        setDiaChi();
    }

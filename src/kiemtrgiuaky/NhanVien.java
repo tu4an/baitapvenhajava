@@ -1,6 +1,6 @@
 package kiemtrgiuaky;
 
-public class NhanVien extends Nguoi{
+public class NhanVien extends nguoi{
     private float heSoLuong;
 
     public NhanVien (){
